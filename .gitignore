@@ -1,0 +1,8 @@
+*.csv
+*.txt
+.ipynb_checkpoints/
+*.pkl
+test.ipynb
+__pycache__/
+.out
+.log
