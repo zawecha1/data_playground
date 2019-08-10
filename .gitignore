@@ -7,3 +7,4 @@ __pycache__/
 .out
 .log
 machine_learning/catboost_info
+machine_learning/catboost_cached_datasets
