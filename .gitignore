@@ -1,10 +1,8 @@
 *.csv
-# *.txt
 .ipynb_checkpoints/
 *.pkl
 test.ipynb
 __pycache__/
-.out
-.log
-machine_learning/catboost_info
-machine_learning/catboost_cached_datasets
+*.out
+*.log
+catboost_info
