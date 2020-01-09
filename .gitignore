@@ -1,3 +1,7 @@
+big_data/
+deep_learning/tensorflow/handson2/
+deep_learning/tensorflow/model/
+deep_learning/tensorflow/tf_logs/
 *.csv
 .ipynb_checkpoints/
 *.pkl

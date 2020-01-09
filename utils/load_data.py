@@ -7,10 +7,10 @@ def load_regression():
     # load data
     train = pd.read_csv(os.path.join(base_dir, "data/Train_BigMartSales.txt"))
     test = pd.read_csv(os.path.join(base_dir, "data/Test_BigMartSales.txt"))
-    return train, test
+    return train, test, 'Item_Outlet_Sales'
 
 def load_classification():
     # load data
     train = pd.read_csv(os.path.join(base_dir, "data/titanic/train.csv"))
     test = pd.read_csv(os.path.join(base_dir, "data/titanic/test.csv"))
-    return train, test
+    return train, test, 'Survived'
